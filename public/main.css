@@ -8,12 +8,14 @@ body {
 
 section {
   padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 @media screen and (min-width: 768px) {
   section {
-    height: 100%;
-    padding-top: 8%;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 }
 
@@ -90,7 +92,7 @@ a:hover {
  /* HERO */
 
 .hero-image {
-    background-image: url("./backgroundsmoke.png");
+    background-image: url("./backgroundsmoke.jpg");
     height: 100%;
     width: 100%;
     background-position: center;
@@ -114,7 +116,6 @@ a:hover {
   padding: 0;
   font-family: sans-serif;
   color: #fff;
-  font-size: 50px;
   text-shadow: 0 2px 5px rgba(0,0,0,1);
   text-align: center;
 }
@@ -138,6 +139,15 @@ a:hover {
   color: #fff;
   font-size: 20px;
   text-shadow: 0 2px 5px rgba(0,0,0,1);
+}
+
+@media screen and (max-width: 767px) {
+  #first-line {
+    font-size: 25px;
+  }
+  #second-line {
+    font-size: 15px;
+  }
 }
 
 /* ABOUT */
@@ -311,8 +321,15 @@ a:hover {
   padding: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  #outro {
+    font-size: 20px;
+    margin-top: 45%;
+  }
+}
+
 #contact {
-  background-image: url("./about-bg.png");
+  background-image: url("./about-bg.jpg");
   height: 100%;
   width: 100%;
   background-position: center;
@@ -337,5 +354,5 @@ footer {
 }
 
 .footera {
-  margin: 2px;
+  margin: 5px;
 }
